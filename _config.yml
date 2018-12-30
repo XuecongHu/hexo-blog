@@ -4,11 +4,13 @@
 
 # Site
 title: Hu Xuecong
-subtitle:
+subtitle: 非学无以广才，非志无以成学
 description:
 author: Hu Xuecong
-language:
+language: zh-Hans
 timezone:
+avatar: /images/avatar.jpeg
+disqus_shortname: HuXuecong
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -34,7 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -72,7 +74,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-freemind
+theme: hexo-theme-apollo
+archive_generator:
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
